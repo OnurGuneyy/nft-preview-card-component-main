@@ -1,0 +1,113 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.outer-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: hsl(216, 50%, 16%);
+  width: 20%;
+  height: 75%;
+  border-radius: 5%;
+  padding: 1.5%;
+}
+
+.etherium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
+.photo {
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+}
+h1 {
+  color: #fff;
+}
+.text-wrapper {
+  font-family: "Outfit", sans-serif;
+  padding: 10px 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+.desc {
+  padding: 10px 0px;
+  color: hsl(215, 23%, 49%);
+}
+.etherium-text {
+  display: flex;
+  justify-content: space-between;
+}
+.eth {
+  margin-left: 6.5px;
+  padding: 0px;
+  font-family: "Outfit", sans-serif;
+}
+.clock {
+  display: flex;
+}
+.bluue {
+  color: hsl(178, 100%, 50%);
+}
+.line {
+  line-height: 25px;
+}
+hr {
+  height: 0.7px;
+  border-width: 0;
+  color: hsl(215, 23%, 49%);
+  background-color: hsl(215, 23%, 49%);
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+  padding-bottom: 20px;
+}
+.final-part {
+  display: flex;
+}
+.name1 {
+  padding-left: 20px;
+  padding-top: 7px;
+  color: hsl(215, 23%, 49%);
+}
+.jules {
+  color: #fff;
+}
+.overlay {
+  position: absolute;
+  width: 20%;
+  height: 38%;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0.6;
+  border-radius: 5%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.jules:hover {
+  color: hsl(178, 100%, 50%);
+}
+.photo:hover + .overlay {
+  display: flex;
+}
+.tittle:hover {
+  color: hsl(178, 100%, 50%);
+}
+.eyes {
+  width: 90px;
+  height: 84px;
+  color: #fff;
+}
